@@ -1,0 +1,2382 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <variable constant="0" name="baixo" sid="971021737432275" static="0" type="number">1</variable>
+        <variable constant="0" name="ControleAtual" sid="426073064908585" static="0" type="number">1</variable>
+        <variable constant="0" name="Check" sid="226332919710112" static="0" type="number">0</variable>
+        <event-block sid="212157203992479">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="346927455103272" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="601575030432792" type="Audio">
+                    <param id="0" name="Audio file">boss morrendo</param>
+                </action>
+                <action id="4" name="Preload" sid="478135539828564" type="Audio">
+                    <param id="0" name="Audio file">caindo</param>
+                </action>
+                <action id="4" name="Preload" sid="992163920823516" type="Audio">
+                    <param id="0" name="Audio file">melee</param>
+                </action>
+                <action id="4" name="Preload" sid="897928521665399" type="Audio">
+                    <param id="0" name="Audio file">menus</param>
+                </action>
+                <action id="4" name="Preload" sid="125215036513573" type="Audio">
+                    <param id="0" name="Audio file">morte</param>
+                </action>
+                <action id="4" name="Preload" sid="872787226831020" type="Audio">
+                    <param id="0" name="Audio file">passos1</param>
+                </action>
+                <action id="4" name="Preload" sid="169590241950436" type="Audio">
+                    <param id="0" name="Audio file">pulo</param>
+                </action>
+                <action id="4" name="Preload" sid="851316840659262" type="Audio">
+                    <param id="0" name="Audio file">selecao</param>
+                </action>
+                <action id="4" name="Preload" sid="224997785250182" type="Audio">
+                    <param id="0" name="Audio file">soco</param>
+                </action>
+                <action id="4" name="Preload" sid="152586973319062" type="Audio">
+                    <param id="0" name="Audio file">tiro1</param>
+                </action>
+                <action id="4" name="Preload" sid="894088549214041" type="Audio">
+                    <param id="0" name="Audio file">ventania</param>
+                </action>
+                <action id="4" name="Preload" sid="350101526918243" type="Audio">
+                    <param id="0" name="Audio file">despacito2</param>
+                </action>
+                <action id="4" name="Preload" sid="633341005617850" type="Audio">
+                    <param id="0" name="Audio file">gerador-on</param>
+                </action>
+                <action id="4" name="Preload" sid="827293874456482" type="Audio">
+                    <param id="0" name="Audio file">hit</param>
+                </action>
+                <action id="4" name="Preload" sid="150071897567627" type="Audio">
+                    <param id="0" name="Audio file">porta</param>
+                </action>
+                <action id="4" name="Preload" sid="754182992984053" type="Audio">
+                    <param id="0" name="Audio file">serra batendo</param>
+                </action>
+                <action id="4" name="Preload" sid="443712481051085" type="Audio">
+                    <param id="0" name="Audio file">serra</param>
+                </action>
+                <action id="4" name="Preload" sid="821214203388653" type="Audio">
+                    <param id="0" name="Audio file">terremoto</param>
+                </action>
+                <action id="4" name="Preload" sid="416268532813222" type="Audio">
+                    <param id="0" name="Audio file">tiro-boss</param>
+                </action>
+                <action id="4" name="Preload" sid="173879330744848" type="Audio">
+                    <param id="0" name="Audio file">tiro2</param>
+                </action>
+                <action id="4" name="Preload" sid="836551045325529" type="Audio">
+                    <param id="0" name="Audio file">spark</param>
+                </action>
+                <action id="4" name="Preload" sid="214236501057835" type="Audio">
+                    <param id="0" name="Audio file">thunder</param>
+                </action>
+                <action id="4" name="Preload" sid="580181490613316" type="Audio">
+                    <param id="0" name="Audio file">musica menu</param>
+                </action>
+                <action id="4" name="Preload" sid="123671080075819" type="Audio">
+                    <param id="0" name="Audio file">musica-boss</param>
+                </action>
+                <action id="4" name="Preload" sid="752094367197822" type="Audio">
+                    <param id="0" name="Audio file">musica fase1</param>
+                </action>
+                <action id="0" name="Set source" sid="898108757340753" type="morreu">
+                    <param id="0" name="WebM source">&quot;morreu.webm&quot;</param>
+                    <param id="1" name="Ogg Theora source">&quot;morreu.ogv&quot;</param>
+                    <param id="2" name="H.264 source">&quot;morreu.mp4&quot;</param>
+                </action>
+                <action id="0" name="Set source" sid="322242644096737" type="Logo">
+                    <param id="0" name="WebM source">&quot;logomovie.webm&quot;</param>
+                    <param id="1" name="Ogg Theora source">&quot;logomovie.ogv&quot;</param>
+                    <param id="2" name="H.264 source">&quot;logomovie.mp4&quot;</param>
+                </action>
+                <action id="4" name="Preload" sid="749219242835344" type="Audio">
+                    <param id="0" name="Audio file">pickup</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="513357751136197">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="592213418812271" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="712389319004797" type="QuitText">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="649296960506367" type="Continue">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="545358920710833" type="GameOver">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="789649193072264" type="Quit">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="575751394182901" type="ResumeText">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="932780371904917" type="Surface">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="815186528316302">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="101791239640849" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="250473000077228" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="440831795844778" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="308093646738884" type="System">
+                    <param id="0" name="Variable">baixo</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="749115526815466" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="655652278963322">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="369515802976796" type="System" />
+                <condition id="5" inverted="1" name="Is tag playing" sid="996997028617647" type="Audio">
+                    <param id="0" name="Tag">&quot;MenuSong&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="363936820016041" type="Audio">
+                    <param id="0" name="Audio file">musica menu</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;MenuSong&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="959776762084025">
+            <conditions>
+                <condition id="0" name="On any touch start" sid="667311900479403" type="Touch" />
+                <condition id="-20" name="Is on mobile device" sid="880647795944620" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="113374637391082" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="823753593723535">
+            <conditions>
+                <condition id="8" name="On any button pressed" sid="521832883753926" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                </condition>
+                <condition id="1" name="On gamepad connected" sid="315463234726164" type="Gamepad" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="376690333578143" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="999512095890856">
+            <conditions>
+                <condition id="1" name="On any key pressed" sid="293047045944433" type="Keyboard" />
+                <condition id="2" name="On gamepad disconnected" sid="172792174086788" type="Gamepad" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="114581670578105" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="431899155254484">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="828129012035195" type="Touch">
+                    <param id="0" name="Object">BarStart</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="904077736030496" type="Mouse">
+                    <param id="0" name="Object">BarStart</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="577572216945912">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="675296766980743" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="963764971655196" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="398269688515097">
+            <conditions>
+                <condition id="3" name="On touched object" sid="433585251570813" type="Touch">
+                    <param id="0" name="Object">BarStart</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="879627885049476" type="Mouse">
+                    <param id="0" name="Object">BarStart</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="951489468202738">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="421522387024425" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="214102671629898" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="210927073858000" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="599819397194509">
+            <conditions>
+                <condition id="3" name="On touched object" sid="742151091563138" type="Touch">
+                    <param id="0" name="Object">BarContinue</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="637054128043297" type="Mouse">
+                    <param id="0" name="Object">BarContinue</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="255926348727299">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="143163642453706" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="413746881361996" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="283962868137532" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="985852024106457">
+            <conditions>
+                <condition id="3" name="On touched object" sid="934605173216304" type="Touch">
+                    <param id="0" name="Object">BarCredits</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="486789230129773" type="Mouse">
+                    <param id="0" name="Object">BarCredits</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="972883899579971">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="141388789023245" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="871579194080179" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="821427889315431" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="265423381593241">
+            <conditions>
+                <condition id="3" name="On touched object" sid="209043567897761" type="Touch">
+                    <param id="0" name="Object">BarQuit</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="787558281253444" type="Mouse">
+                    <param id="0" name="Object">BarQuit</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="603885478233267">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="184944153611031" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="690705508457348" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="212544483467890" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="776904656109863">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="998099894714946" type="Touch">
+                    <param id="0" name="Object">BarContinue</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="649452254028043" type="Mouse">
+                    <param id="0" name="Object">BarContinue</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="598559467730741">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="134633907240232" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="509638493387798" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="801949131484492">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="424102272041036" type="Touch">
+                    <param id="0" name="Object">BarCredits</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="107244855439588" type="Mouse">
+                    <param id="0" name="Object">BarCredits</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="384778298883729">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="181882269072644" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="320668316696831" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="406515048147960">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="406724407218056" type="Touch">
+                    <param id="0" name="Object">BarQuit</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="360707638873688" type="Mouse">
+                    <param id="0" name="Object">BarQuit</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="259204088601039">
+                    <conditions>
+                        <condition id="-10" name="Compare opacity" sid="374249988280803" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="720788576831105" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="130899656995771">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="700570384191017" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="889790171591684" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="481240083206660">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="138101125886365" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="788307159362954" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="435245043148838" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="160814421673989">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="103591700478087" type="BarStart">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="334157224660724" type="BarStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="737046217746336" type="TextStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="345338394851170" type="BarStart">
+                                    <param id="0" name="X">143</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="440781771479753" type="TextStart">
+                                    <param id="0" name="X">31</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="985051762339196">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="774178978472170" type="BarStart">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="122176335502205" type="BarStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="363514658266239" type="TextStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="457867020278617">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="236229740551406" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="206660149952276" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="449080258267592" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="326553569872493">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="381746637926073" type="BarContinue">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="636207241468793" type="BarContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="799145952305575" type="TextContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="160298383566885">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="450603034009875" type="BarContinue">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="601980303399777" type="BarContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="591684514759182" type="TextContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="518938188056284" type="BarContinue">
+                                    <param id="0" name="X">143</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="146443666599891" type="TextContinue">
+                                    <param id="0" name="X">31</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="356472795401160">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="558996163455782" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="836627446283552" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="617152956751008" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="532164290833099">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="359854602889916" type="BarCredits">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="422797628020803" type="BarCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="421782631375487" type="TextCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="358336308531424">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="688193330172508" type="BarCredits">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="410957343625818" type="BarCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="332064090370366" type="TextCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="737506493960499" type="BarCredits">
+                                    <param id="0" name="X">143</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="656527953235369" type="TextCredits">
+                                    <param id="0" name="X">31</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="904381910695393">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="597602058997160" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="184820475125814" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="953410029759219" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="300201971792989">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="868560120136108" type="BarQuit">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="882505457567164" type="BarQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="843465698645644" type="TextQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="172802319325430">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="293988536004352" type="BarQuit">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="768805829796816" type="BarQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="238574170063159" type="TextQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="817049741497816" type="BarQuit">
+                                    <param id="0" name="X">143</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="643927992871534" type="TextQuit">
+                                    <param id="0" name="X">31</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="995982181086865">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="574851721665594" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="310580435180698" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="504310248672238" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="799236505937661">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="740888076989938" type="BarStart">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">113</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="728367681905123" type="BarStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">-200</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="372131990689196" type="TextStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">-200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="532445777075550">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="329848839803139" type="BarStart">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="X co-ordinate">113</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="511024670690402" type="BarStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="472207132088078" type="TextStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="404957967632678">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="415910402499678" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="360329870575339" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="257458370134530" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="637641191808700">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="632696601703158" type="BarContinue">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">113</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="518281918387215" type="BarContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">-200</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="593532912883108" type="TextContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">-200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="700199557023933">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="320953315905555" type="BarContinue">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="X co-ordinate">113</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="627398765100751" type="BarContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="366515105863678" type="TextContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="656993791641995">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="282554691659343" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="406105453232330" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="446912472676108" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="691281114464085">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="395044955307737" type="BarCredits">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">113</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="381685350296807" type="BarCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">-200</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="704614287078066" type="TextCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">-200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="475136360058961">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="770244887972738" type="BarCredits">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="X co-ordinate">113</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="582765515915895" type="BarCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="961830964322857" type="TextCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="238190038966951">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="193622708640999" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="376182469395617" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="548324819246276" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="856552199239860">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="186807893424472" type="BarQuit">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">113</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="595636274202106" type="BarQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">-200</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="460867772360880" type="TextQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">-200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="634803618305387">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="720653210448803" type="BarQuit">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="X co-ordinate">113</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="246180544638695" type="BarQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="617401920677127" type="TextQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="875585892213491">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="904640877054105" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+                <condition id="0" name="On key pressed" sid="593969386592714" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+                <condition id="6" name="On button pressed" sid="147297027031392" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Button">13</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="845740760026247">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="963834452013546" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="679142492483780" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="906165842949172" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="0" name="Play" sid="929512741092276" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SelectSound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="617086514955075">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="287257366324755" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="287477120844933" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="570245022980825" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="0" name="Play" sid="326464579930648" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SelectSound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="615303946321277">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="521349324917529" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="892126366800909" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="413650189159128" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="923975839087337" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SelectSound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="666458620479903">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="419612432719252" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+                <condition id="0" name="On key pressed" sid="144344029389409" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+                <condition id="6" name="On button pressed" sid="708336179537418" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Button">12</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="865560712111137">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="504516496932065" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="694124085153295" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="171334906953310" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="311000221831495" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SelectSound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="605401185652260">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="442388943675729" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="756022665946544" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="187408928444377" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="686138644483124" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SelectSound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="998565060354152">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="818297623276498" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="143960695948147" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="240173432724062" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="0" name="Play" sid="467455008241416" type="Audio">
+                            <param id="0" name="Audio file">selecao</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;SelectSound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="119931536317881">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="721810623527196" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+                <condition id="6" name="On button pressed" sid="948811392813117" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Button">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="313144282234222">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="165017968992263" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="508416381808183" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="241489785336083" type="System">
+                            <param id="0" name="Layout">Fase1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="189978565900603">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="589653627407598" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="753312302378304" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="963276320054250" type="System">
+                            <param id="0" name="Variable">Continue</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-37" name="Load" sid="465667711779561" type="System">
+                            <param id="0" name="Slot">&quot;mysave&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="207103606570300">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="999279446111749" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="156383711299388" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="270255344785543" type="System">
+                            <param id="0" name="Layout">Creditos</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="227137998460727">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="186105969385847" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="482209160831066" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="575485410114747" type="System">
+                            <param id="0" name="Layout">Fase1</param>
+                        </action>
+                        <action id="1" name="Close" sid="435504835550460" type="Browser" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="877006411944398">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="625478485839591" type="Touch">
+                    <param id="0" name="Object">BarStart</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="221961759948490" type="BarQuit">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="261539180924792">
+                    <conditions>
+                        <condition id="1" name="On any touch end" sid="433832390062473" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="111281068375756" type="System">
+                            <param id="0" name="Layout">Fase1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="167938325062973">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="984334401538988" type="Touch">
+                    <param id="0" name="Object">BarContinue</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="222831486082306" type="BarQuit">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="103506850089952" type="System">
+                    <param id="0" name="Variable">Continue</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="710693428418107">
+                    <conditions>
+                        <condition id="1" name="On any touch end" sid="789606322662660" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-37" name="Load" sid="395672479739676" type="System">
+                            <param id="0" name="Slot">&quot;mysave&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="109468323929307">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="892511480767842" type="Touch">
+                    <param id="0" name="Object">BarCredits</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="319624481001829" type="BarQuit">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="952529609607479">
+                    <conditions>
+                        <condition id="1" name="On any touch end" sid="541226278335236" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="687875755208583" type="System">
+                            <param id="0" name="Layout">Creditos</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="899918852022213">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="514378134423082" type="Touch">
+                    <param id="0" name="Object">BarQuit</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="163383714037716" type="BarQuit">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="352921139015915">
+                    <conditions>
+                        <condition id="1" name="On any touch end" sid="405448259560851" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Close" sid="842579028031809" type="Browser" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="926765434933942">
+            <conditions>
+                <condition id="0" name="On click" sid="629583233229183" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="364645103334256" type="Mouse">
+                    <param id="0" name="Object">BarStart</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="877647392308240" type="BarQuit">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="802338727920727" type="System">
+                    <param id="0" name="Layout">Fase1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="707188713970497">
+            <conditions>
+                <condition id="0" name="On click" sid="262714690329538" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="334218160150677" type="Mouse">
+                    <param id="0" name="Object">BarContinue</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="966288753542024" type="BarQuit">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="227279202074572" type="System">
+                    <param id="0" name="Variable">Continue</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="652920901912261" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="767696886193925">
+            <conditions>
+                <condition id="0" name="On click" sid="846565320212981" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="576798571307035" type="Mouse">
+                    <param id="0" name="Object">BarCredits</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="888205912580996" type="BarQuit">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="257299198751148" type="System">
+                    <param id="0" name="Layout">Creditos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="136621076619647">
+            <conditions>
+                <condition id="0" name="On click" sid="474008613178412" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="192468539644832" type="Mouse">
+                    <param id="0" name="Object">BarQuit</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="999223321246842" type="BarQuit">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="817090463715512" type="System">
+                    <param id="0" name="Layout">Fase1</param>
+                </action>
+                <action id="1" name="Close" sid="296876509432621" type="Browser" />
+            </actions>
+        </event-block>
+        <event-block any="1" sid="662050171346066">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="413754974046732" type="Mouse">
+                    <param id="0" name="Object">BarContinue</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="918404434555585" type="Mouse">
+                    <param id="0" name="Object">BarCredits</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="767786420670489" type="Mouse">
+                    <param id="0" name="Object">BarQuit</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="698938539861780" type="Mouse">
+                    <param id="0" name="Object">BarStart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="850536526005601" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="784238846187033" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="460417022470391">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="395354262331359" type="Mouse">
+                    <param id="0" name="Object">BarStart</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="988366287257613" type="Mouse">
+                    <param id="0" name="Object">BarContinue</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="516416439543977" type="Mouse">
+                    <param id="0" name="Object">BarCredits</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="363197905562975" type="Mouse">
+                    <param id="0" name="Object">BarQuit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="573713454565066" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="530046462981599">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="660370447214323" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="663648325318265" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="902301356401517">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="398298298919272" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="455309444477256" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="320792924246567" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="355497368667936">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="230241650576028" type="BarStart">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="327777217046983" type="BarStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="845015834775871" type="TextStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="831320033518213">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="901703154950666" type="BarStart">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="351370489753776" type="BarStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="318664966015683" type="TextStart">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="520166837781838" type="BarStart">
+                                    <param id="0" name="X">143</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="147651893041478" type="TextStart">
+                                    <param id="0" name="X">31</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="326259515763808">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="994017705586263" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="985147277494153" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="692528965169549" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="413471105392666">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="817082104722274" type="BarContinue">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="131003233433298" type="BarContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="777765237610660" type="TextContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="148702819400598">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="725387240336524" type="BarContinue">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="668264607795124" type="BarContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="619781180693817" type="TextContinue">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="167739471007596" type="BarContinue">
+                                    <param id="0" name="X">143</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="715445173900480" type="TextContinue">
+                                    <param id="0" name="X">31</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="651448885901047">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="994233243886902" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="457017601341361" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="454086161226025" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="944436367546969">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="628210091305450" type="BarCredits">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="575115375665073" type="BarCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="883801670864430" type="TextCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="114914150904685">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="820665442998485" type="BarCredits">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="417864460062662" type="BarCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="886772320987229" type="TextCredits">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="738363184467862" type="BarCredits">
+                                    <param id="0" name="X">143</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="623142403902696" type="TextCredits">
+                                    <param id="0" name="X">31</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="707887563139637">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="873291163327175" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="689418348666008" type="System">
+                            <param id="0" name="Interval (seconds)">0.0001</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="640459152367884" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="567285423225384">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="868035808913385" type="BarQuit">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="707109090058176" type="BarQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="581981690042977" type="TextQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">800</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="594899571480607">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="303223531979886" type="BarQuit">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">143</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="176129792944413" type="BarQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action behavior="CustomMovement" id="2" name="Set speed" sid="901691361853630" type="TextQuit">
+                                    <param id="0" name="Which">1</param>
+                                    <param id="1" name="Speed">0</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="311215988627474" type="BarQuit">
+                                    <param id="0" name="X">143</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="701976792172007" type="TextQuit">
+                                    <param id="0" name="X">31</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="239412099344378">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="908397959032228" type="Mouse">
+                            <param id="0" name="Object">BarStart</param>
+                        </condition>
+                        <condition id="4" inverted="1" name="Is touching object" sid="620185829762870" type="Touch">
+                            <param id="0" name="Object">BarStart</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="158896251617482">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="165217298571654" type="System">
+                                    <param id="0" name="Interval (seconds)">0.0001</param>
+                                </condition>
+                                <condition id="-10" name="Compare opacity" sid="889625872423207" type="BarQuit">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="996979671479515">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="796959752061571" type="BarStart">
+                                            <param id="0" name="Comparison">4</param>
+                                            <param id="1" name="X co-ordinate">113</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="785779000485889" type="BarStart">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">-200</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="931294162312745" type="TextStart">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">-200</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="208189765188005">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="734821710073960" type="BarStart">
+                                            <param id="0" name="Comparison">3</param>
+                                            <param id="1" name="X co-ordinate">113</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="607088637105525" type="BarStart">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">0</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="219753784360083" type="TextStart">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="328055611167666">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="137174479518853" type="Mouse">
+                            <param id="0" name="Object">BarContinue</param>
+                        </condition>
+                        <condition id="4" inverted="1" name="Is touching object" sid="629891132614044" type="Touch">
+                            <param id="0" name="Object">BarContinue</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="965310970806528">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="607927684792023" type="System">
+                                    <param id="0" name="Interval (seconds)">0.0001</param>
+                                </condition>
+                                <condition id="-10" name="Compare opacity" sid="116068043065440" type="BarQuit">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="839249108612171">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="691417010632340" type="BarContinue">
+                                            <param id="0" name="Comparison">4</param>
+                                            <param id="1" name="X co-ordinate">113</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="575951707500420" type="BarContinue">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">-200</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="391694941656881" type="TextContinue">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">-200</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="257739907937579">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="576656455007651" type="BarContinue">
+                                            <param id="0" name="Comparison">3</param>
+                                            <param id="1" name="X co-ordinate">113</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="832847426503961" type="BarContinue">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">0</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="219786319322063" type="TextContinue">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="731913043589955">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="159278301777573" type="Mouse">
+                            <param id="0" name="Object">BarCredits</param>
+                        </condition>
+                        <condition id="4" inverted="1" name="Is touching object" sid="888327489342609" type="Touch">
+                            <param id="0" name="Object">BarCredits</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="918013607617844">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="252233563818707" type="System">
+                                    <param id="0" name="Interval (seconds)">0.0001</param>
+                                </condition>
+                                <condition id="-10" name="Compare opacity" sid="875491107118642" type="BarQuit">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="154844783909615">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="523585540087797" type="BarCredits">
+                                            <param id="0" name="Comparison">4</param>
+                                            <param id="1" name="X co-ordinate">113</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="765102643279290" type="BarCredits">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">-200</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="661806107219630" type="TextCredits">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">-200</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="117948957128009">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="187676693989100" type="BarCredits">
+                                            <param id="0" name="Comparison">3</param>
+                                            <param id="1" name="X co-ordinate">113</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="611336930881365" type="BarCredits">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">0</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="612515309278387" type="TextCredits">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="903741561316537">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="835130385203583" type="Mouse">
+                            <param id="0" name="Object">BarQuit</param>
+                        </condition>
+                        <condition id="4" inverted="1" name="Is touching object" sid="813820350459471" type="Touch">
+                            <param id="0" name="Object">BarQuit</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="190107909203419">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="766256540009687" type="System">
+                                    <param id="0" name="Interval (seconds)">0.0001</param>
+                                </condition>
+                                <condition id="-10" name="Compare opacity" sid="904796017397711" type="BarQuit">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="582248953729953">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="686465920603308" type="BarQuit">
+                                            <param id="0" name="Comparison">4</param>
+                                            <param id="1" name="X co-ordinate">113</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="849636138435305" type="BarQuit">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">-200</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="487184434353548" type="TextQuit">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">-200</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="727226351914806">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="953718442519962" type="BarQuit">
+                                            <param id="0" name="Comparison">3</param>
+                                            <param id="1" name="X co-ordinate">113</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="676044182373517" type="BarQuit">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">0</param>
+                                        </action>
+                                        <action behavior="CustomMovement" id="2" name="Set speed" sid="182260972725086" type="TextQuit">
+                                            <param id="0" name="Which">1</param>
+                                            <param id="1" name="Speed">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="259397196646457">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="562281875734656" type="System">
+                    <param id="0" name="Variable">baixo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="2" name="Set speed" sid="206449951875264" type="Policia">
+                    <param id="0" name="Which">2</param>
+                    <param id="1" name="Speed">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="507427921110756">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="454119071211474" type="System">
+                    <param id="0" name="Variable">baixo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">-1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="2" name="Set speed" sid="373699402666746" type="Policia">
+                    <param id="0" name="Which">2</param>
+                    <param id="1" name="Speed">-2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="293861127029885">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="912810160320488" type="System">
+                    <param id="0" name="Interval (seconds)">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="843621779518636" type="System">
+                    <param id="0" name="Variable">baixo</param>
+                    <param id="1" name="Value">baixo*-1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="530734642747037">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="896857479151069" type="Char">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">400</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="202373845870829" type="Char">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">281</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="2" name="Set speed" sid="789456379350966" type="Char">
+                    <param id="0" name="Which">1</param>
+                    <param id="1" name="Speed">4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="426212365887314">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="527898211668277" type="System">
+                    <param id="0" name="Interval (seconds)">0.005</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="335971111813011" type="Char">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="743898235045166" type="Char">
+                    <param id="0" name="Opacity">Char.Opacity+1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="891149884311564">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="616158022621228" type="Char">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">281</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="2" name="Set speed" sid="939685376064480" type="Char">
+                    <param id="0" name="Which">1</param>
+                    <param id="1" name="Speed">1600</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="373398350384853">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="801424750331778" type="Char">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">281</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="210986041695265" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="907133043164855" type="Sprite10">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="677737564328769">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="912625363573948" type="Char">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">281</param>
+                </condition>
+                <condition id="-6" name="Every X seconds" sid="828046083813092" type="System">
+                    <param id="0" name="Interval (seconds)">0.0001</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="220598880960478" type="Sprite10">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Opacity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="401988425360182" type="Sprite10">
+                    <param id="0" name="Opacity">Sprite10.Opacity-1</param>
+                </action>
+                <action id="-42" name="Signal" sid="614865337603338" type="System">
+                    <param id="0" name="Tag">&quot;Titulo/botoes&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="777770726101775">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="187310594753230" type="Char">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">400</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="2" name="Set speed" sid="217657456711762" type="Char">
+                    <param id="0" name="Which">1</param>
+                    <param id="1" name="Speed">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="120728620301464">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="696745009124023" type="System">
+                    <param id="0" name="Interval (seconds)">0.00001</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-41" name="Wait for signal" sid="852548022863793" type="System">
+                    <param id="0" name="Tag">&quot;Titulo/botoes&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="509829380719306" type="System">
+                    <param id="0" name="Seconds">3.5</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="299504624567739" type="BarStart">
+                    <param id="0" name="Opacity">BarStart.Opacity+1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="270644472744423" type="TextStart">
+                    <param id="0" name="Opacity">TextStart.Opacity+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="182362270597571" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="279260143916060" type="BarContinue">
+                    <param id="0" name="Opacity">BarContinue.Opacity+1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="705312329829354" type="TextContinue">
+                    <param id="0" name="Opacity">TextContinue.Opacity+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="135325194388813" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="416251696393081" type="BarCredits">
+                    <param id="0" name="Opacity">BarCredits.Opacity+1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="896160342904171" type="TextCredits">
+                    <param id="0" name="Opacity">TextCredits.Opacity+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="538005776725062" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="607289664083233" type="BarQuit">
+                    <param id="0" name="Opacity">BarQuit.Opacity+1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="582851852716613" type="TextQuit">
+                    <param id="0" name="Opacity">TextQuit.Opacity+1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="523941529584927">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="893171729644202" type="System">
+                            <param id="0" name="Variable">Continue</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="379225340136881" type="BarContinue">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="557245969009382" type="TextContinue">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="932756438551028">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="918915630584668" type="System">
+                            <param id="0" name="Variable">Continue</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="256875487709492" type="BarContinue">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="245318802966836" type="TextContinue">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="479890109335050">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="133148241866843" type="System">
+                    <param id="0" name="Interval (seconds)">0.000001</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="457060094826085" type="TitleClone">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Opacity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-41" name="Wait for signal" sid="559740948344884" type="System">
+                    <param id="0" name="Tag">&quot;Titulo/botoes&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="844787554112002" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="322331946201877" type="Title">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="269050360467627" type="TitleClone">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="877926390475747" type="TitleClone">
+                    <param id="0" name="Opacity">TitleClone.Opacity-2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="851593538700183">
+            <conditions>
+                <condition id="5" name="Compare axis" sid="860772649163854" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Axis">1</param>
+                    <param id="2" name="Comparison">2</param>
+                    <param id="3" name="Value">-35</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="795992150616808" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="400337025785437">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="384326896654295" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="586065667037420" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="675017116902765" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="330679265498804">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="390185563616603" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="778696294522888" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="138304546680463" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="661015876720596">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="847423885209794" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="871991934766561" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="278279281380463" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="794315716705850">
+            <conditions>
+                <condition id="5" name="Compare axis" sid="473485801848790" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Axis">1</param>
+                    <param id="2" name="Comparison">4</param>
+                    <param id="3" name="Value">35</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="227574855313714" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="257410483568408">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="728028368127555" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="110254588844791" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="741948214377565" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="897420239571942">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="604492346834031" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="687386123380729" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="246394255727524" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="413409835471200">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="476010623278226" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-10" name="Compare opacity" sid="719187438672041" type="BarQuit">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Opacity">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="135863348629933" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="973108139530506">
+            <conditions>
+                <condition id="5" inverted="1" name="Is tag playing" sid="242958589270245" type="Audio">
+                    <param id="0" name="Tag">&quot;Menu&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="431764086079333" type="Audio">
+                    <param id="0" name="Audio file">menus</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Menu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="800022713170348">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="935100683581644" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="775530901218195" type="Audio">
+                    <param id="0" name="Tag">&quot;Menu&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="904532149088505" type="Audio">
+                    <param id="0" name="Tag">&quot;MenuSong&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="609552775773596">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="116282753343872" type="BarQuit">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="981673602646093" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="550291759250832" type="Audio">
+                    <param id="0" name="Audio file">selecao</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

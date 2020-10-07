@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the layout was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <camera>
+        <position-x>5522.73</position-x>
+        <position-y>449.815</position-y>
+        <position-z>289.137</position-z>
+        <lookat-x>5522.73</lookat-x>
+        <lookat-y>449.815</lookat-y>
+        <lookat-z>0</lookat-z>
+    </camera>
+    <snap-to-grid>1</snap-to-grid>
+    <show-grid>1</show-grid>
+    <snap-width>16</snap-width>
+    <snap-height>16</snap-height>
+    <show-collision-polys>0</show-collision-polys>
+    <translucent-inactive-layers>0</translucent-inactive-layers>
+    <properties>
+        <property expanded="1" name="Layout properties" />
+        <property expanded="0" name="Layout Size" />
+        <property expanded="0" name="Margins" />
+        <property expanded="1" name="Effects" />
+    </properties>
+    <active-layer name="Parede" />
+    <layers>
+        <layer locked="1" name="Fundo1" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Fundo2" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Fundo3" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Fundo4" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Gerador" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Personagem" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="ParedeTerra" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="liquidos" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="CorrentePequena" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Parede" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Objetos" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="HeatBG" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="CorrenteGrande" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Icones" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="HUD" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="HUD2" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="MapaDeEnergia" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Video" parallax-in-editor="0" visible="1" />
+    </layers>
+</c2uistate>

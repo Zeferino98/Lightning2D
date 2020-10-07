@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="430489001098559">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="485639139942603" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="796096656114025" type="Audio">
+                    <param id="0" name="Audio file">boss morrendo</param>
+                </action>
+                <action id="4" name="Preload" sid="678094814328219" type="Audio">
+                    <param id="0" name="Audio file">caindo</param>
+                </action>
+                <action id="4" name="Preload" sid="371936159359563" type="Audio">
+                    <param id="0" name="Audio file">melee</param>
+                </action>
+                <action id="4" name="Preload" sid="104540740788368" type="Audio">
+                    <param id="0" name="Audio file">menus</param>
+                </action>
+                <action id="4" name="Preload" sid="974616339657703" type="Audio">
+                    <param id="0" name="Audio file">morte</param>
+                </action>
+                <action id="4" name="Preload" sid="732631756770712" type="Audio">
+                    <param id="0" name="Audio file">passos1</param>
+                </action>
+                <action id="4" name="Preload" sid="619439143569098" type="Audio">
+                    <param id="0" name="Audio file">pulo</param>
+                </action>
+                <action id="4" name="Preload" sid="701668029257522" type="Audio">
+                    <param id="0" name="Audio file">selecao</param>
+                </action>
+                <action id="4" name="Preload" sid="524066782650673" type="Audio">
+                    <param id="0" name="Audio file">soco</param>
+                </action>
+                <action id="4" name="Preload" sid="568848866992061" type="Audio">
+                    <param id="0" name="Audio file">tiro1</param>
+                </action>
+                <action id="4" name="Preload" sid="298922453839051" type="Audio">
+                    <param id="0" name="Audio file">ventania</param>
+                </action>
+                <action id="4" name="Preload" sid="769890711225147" type="Audio">
+                    <param id="0" name="Audio file">despacito2</param>
+                </action>
+                <action id="4" name="Preload" sid="381979601316752" type="Audio">
+                    <param id="0" name="Audio file">gerador-on</param>
+                </action>
+                <action id="4" name="Preload" sid="168500094521535" type="Audio">
+                    <param id="0" name="Audio file">hit</param>
+                </action>
+                <action id="4" name="Preload" sid="988330480468823" type="Audio">
+                    <param id="0" name="Audio file">porta</param>
+                </action>
+                <action id="4" name="Preload" sid="496755018470827" type="Audio">
+                    <param id="0" name="Audio file">serra batendo</param>
+                </action>
+                <action id="4" name="Preload" sid="883934441368752" type="Audio">
+                    <param id="0" name="Audio file">serra</param>
+                </action>
+                <action id="4" name="Preload" sid="126080614822456" type="Audio">
+                    <param id="0" name="Audio file">terremoto</param>
+                </action>
+                <action id="4" name="Preload" sid="830933331582257" type="Audio">
+                    <param id="0" name="Audio file">tiro-boss</param>
+                </action>
+                <action id="4" name="Preload" sid="647536990490194" type="Audio">
+                    <param id="0" name="Audio file">tiro2</param>
+                </action>
+                <action id="4" name="Preload" sid="377180917220763" type="Audio">
+                    <param id="0" name="Audio file">spark</param>
+                </action>
+                <action id="4" name="Preload" sid="170737560267236" type="Audio">
+                    <param id="0" name="Audio file">thunder</param>
+                </action>
+                <action id="4" name="Preload" sid="793004718832045" type="Audio">
+                    <param id="0" name="Audio file">musica menu</param>
+                </action>
+                <action id="4" name="Preload" sid="438152592440523" type="Audio">
+                    <param id="0" name="Audio file">musica-boss</param>
+                </action>
+                <action id="4" name="Preload" sid="821024347970061" type="Audio">
+                    <param id="0" name="Audio file">musica fase1</param>
+                </action>
+                <action id="0" name="Set source" sid="939391733985997" type="morreu">
+                    <param id="0" name="WebM source">&quot;morreu.webm&quot;</param>
+                    <param id="1" name="Ogg Theora source">&quot;morreu.ogv&quot;</param>
+                    <param id="2" name="H.264 source">&quot;morreu.mp4&quot;</param>
+                </action>
+                <action id="0" name="Set source" sid="419685578399019" type="Logo">
+                    <param id="0" name="WebM source">&quot;logomovie.webm&quot;</param>
+                    <param id="1" name="Ogg Theora source">&quot;logomovie.ogv&quot;</param>
+                    <param id="2" name="H.264 source">&quot;logomovie.mp4&quot;</param>
+                </action>
+                <action id="4" name="Preload" sid="219673059340394" type="Audio">
+                    <param id="0" name="Audio file">pickup</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="280742204161471">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="857300211161599" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="814776541880536" type="QuitText">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="971519698522938" type="Continue">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="746645574181079" type="GameOver">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="111361097144084" type="Quit">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="226614488694195" type="ResumeText">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="381133369067915" type="Surface">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="299349920302460">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="534207888845974" type="System">
+                    <param id="0" name="Interval (seconds)">0.0001</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="503657014593704">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="699849798544955" type="GameOver">
+                            <param id="0" name="Instance variable">Visi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="967663953316957" type="GameOver">
+                            <param id="0" name="Opacity">GameOver.Opacity+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="965597913855120">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="143801413477617" type="GameOver">
+                            <param id="0" name="Instance variable">Visi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="343754144605576" type="GameOver">
+                            <param id="0" name="Opacity">GameOver.Opacity-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="677838378754830">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="881613993121862" type="GameOver">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="939787355630560" type="GameOver">
+                    <param id="0" name="Instance variable">Visi</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="455233063953434">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="555956148611404" type="GameOver">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="846593709957843" type="GameOver">
+                    <param id="0" name="Instance variable">Visi</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="129609203997792">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="362850990523492" type="System" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="458099936286185" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action behavior="CustomMovement" id="12" name="Set enabled" sid="989395408098162" type="Creditos">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="460379419055672">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="116339628805446" type="Creditos">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Y co-ordinate">260</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="2" name="Set speed" sid="375787790719390" type="Creditos">
+                    <param id="0" name="Which">2</param>
+                    <param id="1" name="Speed">-80</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="781262976923023">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="131227043766932" type="Creditos">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">260</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="12" name="Set enabled" sid="942188419058127" type="Creditos">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="617187557948062">
+                    <conditions>
+                        <condition id="1" name="On any click" sid="497453666654904" type="Mouse" />
+                        <condition id="8" name="On any button pressed" sid="923854614959374" type="Gamepad">
+                            <param id="0" name="Gamepad">0</param>
+                        </condition>
+                        <condition id="1" name="On any key pressed" sid="353702537174955" type="Keyboard" />
+                        <condition id="0" name="On any touch start" sid="128484612966668" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="162578880634292" type="System">
+                            <param id="0" name="Layout">Menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="846543250849066">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="945085979632599" type="Creditos">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">260</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="911463654412478" type="System">
+                    <param id="0" name="Seconds">6</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="899293047167073" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="829820350489905">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="116327191366603" type="System" />
+                <condition id="5" inverted="1" name="Is tag playing" sid="308363767431209" type="Audio">
+                    <param id="0" name="Tag">&quot;MenuSong&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="516062555138960" type="Audio">
+                    <param id="0" name="Audio file">musica menu</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;MenuSong&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="661472962535822">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="951629270329246" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="100919623675062" type="Audio">
+                    <param id="0" name="Tag">&quot;Menu&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="739107464606171" type="Audio">
+                    <param id="0" name="Tag">&quot;MenuSong&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

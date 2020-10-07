@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2layout>
+    <name>Intro</name>
+    <sid>577024950242842</sid>
+    <event-sheet>Event sheet 4</event-sheet>
+    <size>
+        <width>1708</width>
+        <height>960</height>
+    </size>
+    <margins>
+        <horizontal>500</horizontal>
+        <vertical>500</vertical>
+    </margins>
+    <unbounded-scrolling>0</unbounded-scrolling>
+    <layers>
+        <layer name="Layer 0" sid="482214544260370">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="Preto" uid="318">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>450.5</x>
+                        <y>312</y>
+                        <z>0</z>
+                        <width>1007</width>
+                        <height>702</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="GameOver" uid="469">
+                    <properties>
+                        <text>Press any Button</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Electric Shocker,-96,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <instance-variables>
+                        <Visi>1</Visi>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>62.201599121</x>
+                        <y>139.708740234</y>
+                        <z>0</z>
+                        <width>675.596801758</width>
+                        <height>232.582519531</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="FatecLogo" uid="344">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>400.306030273</x>
+                        <y>256.306030273</y>
+                        <z>0</z>
+                        <width>302.935638428</width>
+                        <height>302.935638428</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50101012</hotspotX>
+                        <hotspotY>0.50101012</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Vid" sid="449689477707790">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>0</x>
+                <y>0</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="Logo" uid="3873">
+                    <properties>
+                        <webm-source>logomovie.webm</webm-source>
+                        <ogg-theora-source>logomovie.ogv</ogg-theora-source>
+                        <h264-source>logomovie.mp4</h264-source>
+                        <autoplay>Preload</autoplay>
+                        <play-in-background>No</play-in-background>
+                        <initial-visibility>Invisible</initial-visibility>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>147.849243164</x>
+                        <y>66.886932373</y>
+                        <z>0</z>
+                        <width>504.301513672</width>
+                        <height>378.226135254</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+    </layers>
+    <nonworld-instances />
+    <effects>
+        <effect-type name="Warp">
+            <effect id="warp" />
+            <effect-instance type="Warp">
+                <parameters>
+                    <x-amplitude>1</x-amplitude>
+                    <x-frequency>400</x-frequency>
+                    <x-speed>15</x-speed>
+                    <y-amplitude>5</y-amplitude>
+                    <y-frequency>0</y-frequency>
+                    <y-speed>1</y-speed>
+                </parameters>
+            </effect-instance>
+        </effect-type>
+        <effect-type name="Sharpen">
+            <effect id="sharpen" />
+            <effect-instance type="Sharpen">
+                <parameters>
+                    <intensity>4</intensity>
+                </parameters>
+            </effect-instance>
+        </effect-type>
+        <effect-type name="ScanLines">
+            <effect id="scanlines" />
+            <effect-instance type="ScanLines">
+                <parameters>
+                    <line-height>2</line-height>
+                </parameters>
+            </effect-instance>
+        </effect-type>
+        <effect-type name="Contrast">
+            <effect id="contrast" />
+            <effect-instance type="Contrast">
+                <parameters>
+                    <contrast>0.9</contrast>
+                </parameters>
+            </effect-instance>
+        </effect-type>
+    </effects>
+</c2layout>

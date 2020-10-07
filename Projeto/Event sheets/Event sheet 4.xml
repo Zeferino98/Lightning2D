@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 4</name>
+    <events>
+        <variable constant="0" name="LogoOpac" sid="982035757488462" static="0" type="number">2</variable>
+        <variable constant="0" name="Ready" sid="147484084348520" static="0" type="number">0</variable>
+        <event-block sid="568695967083355">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="824526455310168" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="399143686305067" type="QuitText">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="158546167598417" type="Continue">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="326853014931339" type="GameOver">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="169789086572814" type="Quit">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="832339369300875" type="ResumeText">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="128049151555627" type="Surface">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="870069378872684">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="375363941081066" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="800942338732290" type="Audio">
+                    <param id="0" name="Audio file">boss morrendo</param>
+                </action>
+                <action id="4" name="Preload" sid="107069072920398" type="Audio">
+                    <param id="0" name="Audio file">caindo</param>
+                </action>
+                <action id="4" name="Preload" sid="410963458012340" type="Audio">
+                    <param id="0" name="Audio file">melee</param>
+                </action>
+                <action id="4" name="Preload" sid="311350210002559" type="Audio">
+                    <param id="0" name="Audio file">menus</param>
+                </action>
+                <action id="4" name="Preload" sid="919023866788581" type="Audio">
+                    <param id="0" name="Audio file">morte</param>
+                </action>
+                <action id="4" name="Preload" sid="571996369472489" type="Audio">
+                    <param id="0" name="Audio file">passos1</param>
+                </action>
+                <action id="4" name="Preload" sid="786082001687671" type="Audio">
+                    <param id="0" name="Audio file">pulo</param>
+                </action>
+                <action id="4" name="Preload" sid="604082386444774" type="Audio">
+                    <param id="0" name="Audio file">selecao</param>
+                </action>
+                <action id="4" name="Preload" sid="124444650344929" type="Audio">
+                    <param id="0" name="Audio file">soco</param>
+                </action>
+                <action id="4" name="Preload" sid="187649168882698" type="Audio">
+                    <param id="0" name="Audio file">tiro1</param>
+                </action>
+                <action id="4" name="Preload" sid="412804850741186" type="Audio">
+                    <param id="0" name="Audio file">ventania</param>
+                </action>
+                <action id="4" name="Preload" sid="171875885358311" type="Audio">
+                    <param id="0" name="Audio file">despacito2</param>
+                </action>
+                <action id="4" name="Preload" sid="654311703450495" type="Audio">
+                    <param id="0" name="Audio file">gerador-on</param>
+                </action>
+                <action id="4" name="Preload" sid="730971758346651" type="Audio">
+                    <param id="0" name="Audio file">hit</param>
+                </action>
+                <action id="4" name="Preload" sid="824261674061794" type="Audio">
+                    <param id="0" name="Audio file">porta</param>
+                </action>
+                <action id="4" name="Preload" sid="809811955483711" type="Audio">
+                    <param id="0" name="Audio file">serra batendo</param>
+                </action>
+                <action id="4" name="Preload" sid="274430864855291" type="Audio">
+                    <param id="0" name="Audio file">serra</param>
+                </action>
+                <action id="4" name="Preload" sid="606108653866977" type="Audio">
+                    <param id="0" name="Audio file">terremoto</param>
+                </action>
+                <action id="4" name="Preload" sid="894444563774446" type="Audio">
+                    <param id="0" name="Audio file">tiro-boss</param>
+                </action>
+                <action id="4" name="Preload" sid="243261374480276" type="Audio">
+                    <param id="0" name="Audio file">tiro2</param>
+                </action>
+                <action id="4" name="Preload" sid="180130018670907" type="Audio">
+                    <param id="0" name="Audio file">spark</param>
+                </action>
+                <action id="4" name="Preload" sid="584065689720347" type="Audio">
+                    <param id="0" name="Audio file">thunder</param>
+                </action>
+                <action id="4" name="Preload" sid="905997998370951" type="Audio">
+                    <param id="0" name="Audio file">musica menu</param>
+                </action>
+                <action id="4" name="Preload" sid="607598702135877" type="Audio">
+                    <param id="0" name="Audio file">musica-boss</param>
+                </action>
+                <action id="4" name="Preload" sid="841935625227072" type="Audio">
+                    <param id="0" name="Audio file">musica fase1</param>
+                </action>
+                <action id="0" name="Set source" sid="272196962383595" type="morreu">
+                    <param id="0" name="WebM source">&quot;morreu.webm&quot;</param>
+                    <param id="1" name="Ogg Theora source">&quot;morreu.ogv&quot;</param>
+                    <param id="2" name="H.264 source">&quot;morreu.mp4&quot;</param>
+                </action>
+                <action id="0" name="Set source" sid="625665079565536" type="Logo">
+                    <param id="0" name="WebM source">&quot;logomovie.webm&quot;</param>
+                    <param id="1" name="Ogg Theora source">&quot;logomovie.ogv&quot;</param>
+                    <param id="2" name="H.264 source">&quot;logomovie.mp4&quot;</param>
+                </action>
+                <action id="4" name="Preload" sid="914002746404556" type="Audio">
+                    <param id="0" name="Audio file">pickup</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="621458822100319">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="472899534962292" type="System">
+                    <param id="0" name="Interval (seconds)">0.0001</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="800574792380107">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="800432808087391" type="GameOver">
+                            <param id="0" name="Instance variable">Visi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="598231595129216" type="GameOver">
+                            <param id="0" name="Opacity">GameOver.Opacity+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="281948888833641">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="512885991598587" type="GameOver">
+                            <param id="0" name="Instance variable">Visi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="827107646938060" type="GameOver">
+                            <param id="0" name="Opacity">GameOver.Opacity-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="785332317732374">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="171006840916902" type="GameOver">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="101699055507519" type="GameOver">
+                    <param id="0" name="Instance variable">Visi</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="550129982745828">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="829231796488635" type="GameOver">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="510508964578231" type="GameOver">
+                    <param id="0" name="Instance variable">Visi</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="156948187060681">
+            <conditions>
+                <condition id="1" name="On any click" sid="653794968245288" type="Mouse" />
+                <condition id="8" name="On any button pressed" sid="692990004535630" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                </condition>
+                <condition id="1" name="On any key pressed" sid="263747742761233" type="Keyboard" />
+                <condition id="0" name="On any touch start" sid="545162376833037" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="698525663296427" type="System">
+                    <param id="0" name="Variable">Ready</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="460991269821170">
+            <conditions>
+                <condition id="-20" name="Is on mobile device" sid="582805740054255" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="448925638695403" type="GameOver">
+                    <param id="0" name="Text">&quot;Touch the Screen&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="289965073264719">
+            <conditions>
+                <condition id="-22" name="Else" sid="883889510970147" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="204478658051306" type="GameOver">
+                    <param id="0" name="Text">&quot;Press any Button&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="410784246903439">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="982413564106754" type="System">
+                    <param id="0" name="Interval (seconds)">0.0001</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="858850429892148" type="FatecLogo">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="334031243848381" type="System">
+                    <param id="0" name="Variable">LogoOpac</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="515286023323690" type="FatecLogo">
+                    <param id="0" name="Opacity">FatecLogo.Opacity+1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="470074611599467">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="968846747045735" type="System">
+                    <param id="0" name="Interval (seconds)">0.0001</param>
+                </condition>
+                <condition id="-10" name="Compare opacity" sid="240480454458616" type="FatecLogo">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Opacity">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="824681333383213" type="System">
+                    <param id="0" name="Variable">LogoOpac</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="140874419863682" type="FatecLogo">
+                    <param id="0" name="Opacity">FatecLogo.Opacity-1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="741740272723781">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="367467497484834" type="FatecLogo">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="767659232761195" type="System">
+                    <param id="0" name="Seconds">0.7</param>
+                </action>
+                <action id="-9" name="Set value" sid="327308359157585" type="System">
+                    <param id="0" name="Variable">LogoOpac</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="165532644953567">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="679656495825032" type="FatecLogo">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="754680076062896" type="System">
+                    <param id="0" name="Variable">LogoOpac</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="652991131252633" type="System">
+                    <param id="0" name="Seconds">0.7</param>
+                </action>
+                <action id="-9" name="Destroy" sid="228735570871137" type="FatecLogo" />
+                <action id="-15" name="Set visible" sid="993388967745034" type="Logo">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="6" name="Play" sid="804730104125524" type="Logo" />
+            </actions>
+        </event-block>
+        <event-block sid="465457387139406">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="931813834572490" type="System" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="270540352049930" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="886705115079774" type="GameOver">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="230825837476566">
+            <conditions>
+                <condition id="2" name="Has ended" sid="690621476631066" type="Logo" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="460978553941120" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="279352511414395" type="Logo">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="647278338290507" type="Logo" />
+                <action id="-2" name="Go to layout" sid="503794836090238" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+                <action id="-15" name="Set visible" sid="991785722656064" type="GameOver">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="591485006136906">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="180513749926815" type="System">
+                    <param id="0" name="Variable">Ready</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="921772661533602" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="863080436913249" type="GameOver">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="702967046196110" type="System">
+                    <param id="0" name="Variable">LogoOpac</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="260962035148714">
+            <conditions>
+                <condition id="0" name="Is playing" sid="235418681391870" type="Logo" />
+                <condition id="-4" name="Trigger once while true" sid="127634279759563" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="170475444311650" type="System">
+                    <param id="0" name="Seconds">0.7</param>
+                </action>
+                <action id="0" name="Play" sid="695577206675113" type="Audio">
+                    <param id="0" name="Audio file">spark</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="992442352167706" type="System">
+                    <param id="0" name="Seconds">1.3</param>
+                </action>
+                <action id="0" name="Play" sid="674951732018394" type="Audio">
+                    <param id="0" name="Audio file">thunder</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-15</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

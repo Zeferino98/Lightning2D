@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Intro</layout>
+        <layout order="2">Menu</layout>
+        <layout order="4">Fase1</layout>
+        <layout order="5">Fase2</layout>
+        <layout order="7">GameOver</layout>
+        <layout order="9">Creditos</layout>
+        <event-sheet active="1" order="1">Event sheet 4</event-sheet>
+        <event-sheet order="3">Event sheet 2</event-sheet>
+        <event-sheet order="6">Event sheet 1</event-sheet>
+        <event-sheet order="8">Event sheet 5</event-sheet>
+        <event-sheet order="10">Event sheet 3</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/BGFase2/" />
+        <folder expanded="1" path="object-folder/Icones/" />
+        <folder expanded="0" path="object-folder/Boss/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/CorrentePequena/" />
+        <folder expanded="1" path="animation-folder/Correntona/" />
+        <folder expanded="1" path="animation-folder/A/" />
+        <folder expanded="1" path="animation-folder/B/" />
+        <folder expanded="1" path="animation-folder/Kboard/" />
+        <folder expanded="1" path="animation-folder/Gpad/" />
+        <folder expanded="1" path="animation-folder/Up/" />
+        <folder expanded="1" path="animation-folder/LArrow/" />
+        <folder expanded="1" path="animation-folder/RArrow/" />
+        <folder expanded="1" path="animation-folder/f/" />
+        <folder expanded="1" path="animation-folder/JumpIcon/" />
+        <folder expanded="1" path="animation-folder/CrossIcon/" />
+        <folder expanded="1" path="animation-folder/SpaceIcon/" />
+        <folder expanded="1" path="animation-folder/X/" />
+        <folder expanded="1" path="animation-folder/Y/" />
+        <folder expanded="1" path="animation-folder/TutorialJump/" />
+        <folder expanded="1" path="animation-folder/TutorialPunch/" />
+        <folder expanded="1" path="animation-folder/PunchIcon/" />
+        <folder expanded="1" path="animation-folder/TouchArmaIcone/" />
+        <folder expanded="1" path="animation-folder/HUDPickupIcone/" />
+        <folder expanded="1" path="animation-folder/eIcon/" />
+        <folder expanded="1" path="animation-folder/Icon1/" />
+        <folder expanded="1" path="animation-folder/LBIcon/" />
+        <folder expanded="1" path="animation-folder/Icon2/" />
+        <folder expanded="1" path="animation-folder/AruBo/" />
+        <folder expanded="1" path="animation-folder/TotoroBo/" />
+        <folder expanded="1" path="animation-folder/RodriBo/" />
+        <folder expanded="1" path="animation-folder/Aruluz/" />
+        <folder expanded="1" path="animation-folder/RoLuz/" />
+        <folder expanded="1" path="animation-folder/TotoLuz/" />
+        <folder expanded="1" path="animation-folder/Attack1/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/Serra/" />
+        <folder expanded="1" path="animation-folder/Shuin/" />
+        <folder expanded="1" path="animation-folder/Lazor/" />
+        <folder expanded="1" path="animation-folder/ChaoComum/" />
+        <folder expanded="1" path="animation-folder/Personagem/" />
+        <folder expanded="1" path="animation-folder/DisparoArma1/" />
+        <folder expanded="1" path="animation-folder/Inimigo/" />
+        <folder expanded="1" path="animation-folder/DisparoInimigo/" />
+        <folder expanded="1" path="animation-folder/TouchDireita/" />
+        <folder expanded="1" path="animation-folder/TouchEsquerda/" />
+        <folder expanded="1" path="animation-folder/TouchA/" />
+        <folder expanded="1" path="animation-folder/TouchB/" />
+        <folder expanded="1" path="animation-folder/DisparoArma2/" />
+        <folder expanded="1" path="animation-folder/ParedeJumpBlock/" />
+        <folder expanded="1" path="animation-folder/ParedeSpeedBlock/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/WJBlock/" />
+        <folder expanded="1" path="animation-folder/Parede/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/FallBlock/" />
+        <folder expanded="1" path="animation-folder/Escudo1/" />
+        <folder expanded="1" path="animation-folder/Escudo2/" />
+        <folder expanded="1" path="animation-folder/Escudo3/" />
+        <folder expanded="1" path="animation-folder/HudChar/" />
+        <folder expanded="1" path="animation-folder/Camera/" />
+        <folder expanded="1" path="animation-folder/TouchArma/" />
+        <folder expanded="1" path="animation-folder/WJBox/" />
+        <folder expanded="1" path="animation-folder/FundoFase1/" />
+        <folder expanded="1" path="animation-folder/LixoFundo/" />
+        <folder expanded="1" path="animation-folder/LixoFrente/" />
+        <folder expanded="1" path="animation-folder/HeatBar/" />
+        <folder expanded="1" path="animation-folder/HeatBG/" />
+        <folder expanded="1" path="animation-folder/Fundao/" />
+        <folder expanded="1" path="animation-folder/Policia/" />
+        <folder expanded="1" path="animation-folder/Char/" />
+        <folder expanded="1" path="animation-folder/Fios/" />
+        <folder expanded="1" path="animation-folder/Sombra/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Preto/" />
+        <folder expanded="1" path="animation-folder/Title/" />
+        <folder expanded="1" path="animation-folder/TitleClone/" />
+        <folder expanded="1" path="animation-folder/Sprite14/" />
+        <folder expanded="1" path="animation-folder/BarStart/" />
+        <folder expanded="1" path="animation-folder/BarContinue/" />
+        <folder expanded="1" path="animation-folder/BarCredits/" />
+        <folder expanded="1" path="animation-folder/BarQuit/" />
+        <folder expanded="1" path="animation-folder/TextContinue/" />
+        <folder expanded="1" path="animation-folder/TextStart/" />
+        <folder expanded="1" path="animation-folder/TextCredits/" />
+        <folder expanded="1" path="animation-folder/TextQuit/" />
+        <folder expanded="1" path="animation-folder/fase1parte/" />
+        <folder expanded="1" path="animation-folder/ParedeMain/" />
+        <folder expanded="1" path="animation-folder/ParedeEsquerdaCima/" />
+        <folder expanded="1" path="animation-folder/ParedeDireitaCima/" />
+        <folder expanded="1" path="animation-folder/sprites4/" />
+        <folder expanded="1" path="animation-folder/sprites5/" />
+        <folder expanded="1" path="animation-folder/ParedeDireta/" />
+        <folder expanded="1" path="animation-folder/ParedeEsquerda/" />
+        <folder expanded="1" path="animation-folder/sprites8/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/Sprite15/" />
+        <folder expanded="1" path="animation-folder/agua/" />
+        <folder expanded="1" path="animation-folder/warpMask/" />
+        <folder expanded="1" path="animation-folder/Agua2/" />
+        <folder expanded="1" path="animation-folder/ParedeMeioCima/" />
+        <folder expanded="1" path="animation-folder/AguaVerde/" />
+        <folder expanded="1" path="animation-folder/Sprite19/" />
+        <folder expanded="1" path="animation-folder/Porta/" />
+        <folder expanded="1" path="animation-folder/elevador/" />
+        <folder expanded="1" path="animation-folder/Botao/" />
+        <folder expanded="1" path="animation-folder/ParedeFundo/" />
+        <folder expanded="1" path="animation-folder/ParedeTrilhos/" />
+        <folder expanded="1" path="animation-folder/Pickups/" />
+        <folder expanded="1" path="animation-folder/Gerador/" />
+        <folder expanded="1" path="animation-folder/Sprite23/" />
+        <folder expanded="1" path="animation-folder/ChaoQuebra/" />
+        <folder expanded="1" path="animation-folder/FallTrigger/" />
+        <folder expanded="1" path="animation-folder/EndTrigger/" />
+        <folder expanded="1" path="animation-folder/HitBoxContinue/" />
+        <folder expanded="1" path="animation-folder/HitBoxQuit/" />
+        <folder expanded="1" path="animation-folder/CarroAsset/" />
+        <folder expanded="1" path="animation-folder/PunchHitBox/" />
+        <folder expanded="1" path="animation-folder/LandEffect/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/JumpEffect/" />
+        <folder expanded="1" path="animation-folder/ShootEffect/" />
+        <folder expanded="1" path="animation-folder/TouchPunch/" />
+        <folder expanded="1" path="animation-folder/Sprite27/" />
+        <folder expanded="1" path="animation-folder/TutorialMove/" />
+        <folder expanded="1" path="animation-folder/Checkpoint/" />
+        <folder expanded="1" path="animation-folder/PickupArma/" />
+        <folder expanded="1" path="animation-folder/PickupEffect/" />
+        <folder expanded="1" path="animation-folder/Fundo1/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/ExplosionEffect/" />
+        <folder expanded="1" path="animation-folder/FatecLogo/" />
+        <folder expanded="1" path="animation-folder/ResumeHitBox/" />
+        <folder expanded="1" path="animation-folder/QuitHitBox/" />
+        <folder expanded="1" path="animation-folder/TouchPause/" />
+        <folder expanded="1" path="animation-folder/GridEnergia1/" />
+        <folder expanded="1" path="animation-folder/FallTriggerElev/" />
+        <folder expanded="1" path="animation-folder/GridEnergia2/" />
+        <folder expanded="1" path="animation-folder/GridEnergia3/" />
+        <folder expanded="1" path="animation-folder/GridEnergia4/" />
+        <folder expanded="1" path="animation-folder/HUDPickup/" />
+        <folder expanded="1" path="animation-folder/BlipExtra1/" />
+        <folder expanded="1" path="animation-folder/BlipPlus1/" />
+        <folder expanded="1" path="animation-folder/Escudo4/" />
+        <folder expanded="1" path="animation-folder/Escudo5/" />
+        <folder expanded="1" path="animation-folder/Escudo6/" />
+        <folder expanded="1" path="animation-folder/HeatBG2/" />
+        <folder expanded="1" path="animation-folder/HeatInfinite/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/PickUpArma2/" />
+        <folder expanded="1" path="animation-folder/HitBox1/" />
+        <folder expanded="1" path="animation-folder/ParedeSpawn/" />
+        <folder expanded="1" path="animation-folder/ParedeSpawner/" />
+        <folder expanded="1" path="animation-folder/explosao/" />
+        <folder expanded="1" path="animation-folder/InimigoUpside/" />
+        <folder expanded="1" path="animation-folder/DisparoInimigoUpside/" />
+        <folder expanded="1" path="animation-folder/Inimigo2/" />
+        <folder expanded="1" path="animation-folder/GridBoss/" />
+        <folder expanded="1" path="animation-folder/BossTrigger/" />
+        <folder expanded="1" path="animation-folder/LixoBox/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/FundoBoss/" />
+        <folder expanded="1" path="animation-folder/FundoElevador/" />
+        <folder expanded="1" path="animation-folder/HitBoxFase2/" />
+        <folder expanded="1" path="animation-folder/Creditos/" />
+        <folder expanded="1" path="animation-folder/DeathHitBox/" />
+        <folder expanded="1" path="animation-folder/HitBoxEnd/" />
+        <folder expanded="1" path="animation-folder/FadeOut/" />
+        <folder expanded="1" path="animation-folder/Sprite16/" />
+        <folder expanded="1" path="animation-folder/Sprite17/" />
+        <folder expanded="1" path="animation-folder/Sprite18/" />
+        <folder expanded="1" path="animation-folder/Sprite20/" />
+        <folder expanded="1" path="animation-folder/RBIcon/" />
+    </folders-expanded>
+</c2uistate>

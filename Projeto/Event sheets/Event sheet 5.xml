@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 5</name>
+    <events>
+        <event-block sid="983482561121064">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="389849479351321" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="110352390498551" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="752000922286660" type="GameOver">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="511421377582227" type="Preto">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="311874778269241" type="Preto">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-7" name="Set size" sid="737998207507228" type="Preto">
+                    <param id="0" name="Width">1114</param>
+                    <param id="1" name="Height">713</param>
+                </action>
+                <action id="-3" name="Set position" sid="455865525724174" type="Preto">
+                    <param id="0" name="X">446</param>
+                    <param id="1" name="Y">266.5</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="923527770753434" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-29" name="Set layout effect enabled" sid="365810767137393" type="System">
+                    <param id="0" name="Mode">1</param>
+                    <param id="1" name="Effect">&quot;Warp&quot;</param>
+                </action>
+                <action id="-29" name="Set layout effect enabled" sid="244526241166059" type="System">
+                    <param id="0" name="Mode">1</param>
+                    <param id="1" name="Effect">&quot;Sharpen&quot;</param>
+                </action>
+                <action id="-29" name="Set layout effect enabled" sid="105146525347657" type="System">
+                    <param id="0" name="Mode">1</param>
+                    <param id="1" name="Effect">&quot;ScanLines&quot;</param>
+                </action>
+                <action id="-29" name="Set layout effect enabled" sid="746548053831168" type="System">
+                    <param id="0" name="Mode">0</param>
+                    <param id="1" name="Effect">&quot;Contrast&quot;</param>
+                </action>
+                <action id="-31" name="Set layout effect parameter" sid="432680696395823" type="System">
+                    <param id="0" name="Effect">&quot;ScanLines&quot;</param>
+                    <param id="1" name="Parameter index">0</param>
+                    <param id="2" name="Value">3</param>
+                </action>
+                <action id="-31" name="Set layout effect parameter" sid="109304024624729" type="System">
+                    <param id="0" name="Effect">&quot;Sharpen&quot;</param>
+                    <param id="1" name="Parameter index">0</param>
+                    <param id="2" name="Value">400</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="916312251917684">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="557726722817263" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="622957021623493" type="Audio">
+                    <param id="0" name="Audio file">boss morrendo</param>
+                </action>
+                <action id="4" name="Preload" sid="322783385040404" type="Audio">
+                    <param id="0" name="Audio file">caindo</param>
+                </action>
+                <action id="4" name="Preload" sid="869054926995601" type="Audio">
+                    <param id="0" name="Audio file">melee</param>
+                </action>
+                <action id="4" name="Preload" sid="395975924530883" type="Audio">
+                    <param id="0" name="Audio file">menus</param>
+                </action>
+                <action id="4" name="Preload" sid="827918234028133" type="Audio">
+                    <param id="0" name="Audio file">morte</param>
+                </action>
+                <action id="4" name="Preload" sid="882839049058046" type="Audio">
+                    <param id="0" name="Audio file">passos1</param>
+                </action>
+                <action id="4" name="Preload" sid="949987200497747" type="Audio">
+                    <param id="0" name="Audio file">pulo</param>
+                </action>
+                <action id="4" name="Preload" sid="912908430501646" type="Audio">
+                    <param id="0" name="Audio file">selecao</param>
+                </action>
+                <action id="4" name="Preload" sid="345266982833735" type="Audio">
+                    <param id="0" name="Audio file">soco</param>
+                </action>
+                <action id="4" name="Preload" sid="307120868481188" type="Audio">
+                    <param id="0" name="Audio file">tiro1</param>
+                </action>
+                <action id="4" name="Preload" sid="930011934457886" type="Audio">
+                    <param id="0" name="Audio file">ventania</param>
+                </action>
+                <action id="4" name="Preload" sid="751100172697460" type="Audio">
+                    <param id="0" name="Audio file">despacito2</param>
+                </action>
+                <action id="4" name="Preload" sid="493740734297674" type="Audio">
+                    <param id="0" name="Audio file">gerador-on</param>
+                </action>
+                <action id="4" name="Preload" sid="304092234786216" type="Audio">
+                    <param id="0" name="Audio file">hit</param>
+                </action>
+                <action id="4" name="Preload" sid="905050094939298" type="Audio">
+                    <param id="0" name="Audio file">porta</param>
+                </action>
+                <action id="4" name="Preload" sid="792105467826851" type="Audio">
+                    <param id="0" name="Audio file">serra batendo</param>
+                </action>
+                <action id="4" name="Preload" sid="485692726163186" type="Audio">
+                    <param id="0" name="Audio file">serra</param>
+                </action>
+                <action id="4" name="Preload" sid="277379001123698" type="Audio">
+                    <param id="0" name="Audio file">terremoto</param>
+                </action>
+                <action id="4" name="Preload" sid="355073638699255" type="Audio">
+                    <param id="0" name="Audio file">tiro-boss</param>
+                </action>
+                <action id="4" name="Preload" sid="200243083196819" type="Audio">
+                    <param id="0" name="Audio file">tiro2</param>
+                </action>
+                <action id="4" name="Preload" sid="604807513544591" type="Audio">
+                    <param id="0" name="Audio file">spark</param>
+                </action>
+                <action id="4" name="Preload" sid="102095578791629" type="Audio">
+                    <param id="0" name="Audio file">thunder</param>
+                </action>
+                <action id="4" name="Preload" sid="573421395992661" type="Audio">
+                    <param id="0" name="Audio file">musica menu</param>
+                </action>
+                <action id="4" name="Preload" sid="628587401193649" type="Audio">
+                    <param id="0" name="Audio file">musica-boss</param>
+                </action>
+                <action id="4" name="Preload" sid="321679148055328" type="Audio">
+                    <param id="0" name="Audio file">musica fase1</param>
+                </action>
+                <action id="0" name="Set source" sid="274754211499874" type="morreu">
+                    <param id="0" name="WebM source">&quot;morreu.webm&quot;</param>
+                    <param id="1" name="Ogg Theora source">&quot;morreu.ogv&quot;</param>
+                    <param id="2" name="H.264 source">&quot;morreu.mp4&quot;</param>
+                </action>
+                <action id="0" name="Set source" sid="292339022767080" type="Logo">
+                    <param id="0" name="WebM source">&quot;logomovie.webm&quot;</param>
+                    <param id="1" name="Ogg Theora source">&quot;logomovie.ogv&quot;</param>
+                    <param id="2" name="H.264 source">&quot;logomovie.mp4&quot;</param>
+                </action>
+                <action id="4" name="Preload" sid="610584513848597" type="Audio">
+                    <param id="0" name="Audio file">pickup</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="582503077207037">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="980229888122969" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="203639428965746" type="QuitText">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="262687227681570" type="Continue">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="172778123399556" type="GameOver">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="314625855053488" type="Quit">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="467805993103978" type="ResumeText">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="410880647878330" type="Surface">
+                    <param id="0" name="Family name">&quot;electric_shockerregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="503227682071922">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="139091969382273" type="System">
+                    <param id="0" name="Interval (seconds)">0.0001</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="877629096831436">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="950848194538121" type="GameOver">
+                            <param id="0" name="Instance variable">Visi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="739426929822192" type="GameOver">
+                            <param id="0" name="Opacity">GameOver.Opacity+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="393887649815763">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="832058085238117" type="GameOver">
+                            <param id="0" name="Instance variable">Visi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="283104216754968" type="GameOver">
+                            <param id="0" name="Opacity">GameOver.Opacity-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="430758336308227">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="987323298969512" type="GameOver">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="731517666221559" type="GameOver">
+                    <param id="0" name="Instance variable">Visi</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="327282014518106">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="934800180326926" type="GameOver">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Opacity">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="754544232656742" type="GameOver">
+                    <param id="0" name="Instance variable">Visi</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="841685037603237">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="313913060995692" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+                <condition id="3" name="On button released" sid="399280190323672" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                </condition>
+                <condition id="6" name="On button pressed" sid="321251353375082" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Button">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="951916754910115">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="446514545700348" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="513216743838801">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="804452397566915" type="System">
+                                    <param id="0" name="Variable">Continue</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-37" name="Load" sid="529901040761575" type="System">
+                                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="160230327599648">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="130753153661039" type="System">
+                                    <param id="0" name="Variable">Continue</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="994269834965899" type="System">
+                                    <param id="0" name="Layout">Fase1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="310215392663197">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="989444315273027" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="720604898478705" type="System">
+                            <param id="0" name="Layout">Menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="941385579743221">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="200370144408337" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+                <condition id="0" name="On key pressed" sid="426516396373172" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+                <condition id="6" name="On button pressed" sid="347423528450950" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Button">13</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="991741342852672">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="447980614211391" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="917270987419356" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="120872147970646">
+            <conditions>
+                <condition id="5" name="Compare axis" sid="509110757541135" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Axis">1</param>
+                    <param id="2" name="Comparison">2</param>
+                    <param id="3" name="Value">-35</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="556561260308225" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="785790715844195">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="920190173837881" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="154757575336862" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="136764938351064">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="178792882807390" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+                <condition id="0" name="On key pressed" sid="506710277535921" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+                <condition id="6" name="On button pressed" sid="787772490492766" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Button">12</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="413600142838727">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="281622156650202" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="511861107378691" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="925588857797382">
+            <conditions>
+                <condition id="5" name="Compare axis" sid="771502048224460" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                    <param id="1" name="Axis">1</param>
+                    <param id="2" name="Comparison">4</param>
+                    <param id="3" name="Value">35</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="921249222109212" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="450525555113114">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="656156697872808" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="480923924477964" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="504671488230513">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="102679012461524" type="Mouse">
+                    <param id="0" name="Object">HitBoxContinue</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="757812193682194" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="647069804553644" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="672050510115061" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="897986403884656">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="230663581863815" type="Mouse">
+                    <param id="0" name="Object">HitBoxQuit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="107106761751824" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="799762928062167" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="884257732796976" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="119142968518782">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="141895861109744" type="Mouse">
+                    <param id="0" name="Object">HitBoxQuit</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="897411036103886" type="Mouse">
+                    <param id="0" name="Object">HitBoxContinue</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="192889747824857" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="142946106276261" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="902608208333643" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="259487865086793">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="707052125622340" type="Touch">
+                    <param id="0" name="Object">HitBoxContinue</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="276256709428302" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="719512397755146">
+                    <conditions>
+                        <condition id="1" name="On any touch end" sid="453030182010151" type="Touch" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="452962469231801">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="968190244911407" type="System">
+                                    <param id="0" name="Variable">Continue</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-37" name="Load" sid="160972420712616" type="System">
+                                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="277765119930898">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="823699148895543" type="System">
+                                    <param id="0" name="Variable">Continue</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="188471207504136" type="System">
+                                    <param id="0" name="Layout">Fase1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="869759923727864">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="238300606470888" type="Touch">
+                    <param id="0" name="Object">HitBoxQuit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="291591611069811" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="487888528291405">
+                    <conditions>
+                        <condition id="1" name="On any touch end" sid="100523574606147" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="905566567062784" type="System">
+                            <param id="0" name="Layout">Menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="759081742799017">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="273408805275974" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set font size" sid="124324304956549" type="Continue">
+                    <param id="0" name="Size (pt)">40</param>
+                </action>
+                <action id="3" name="Set font size" sid="332268696981093" type="Quit">
+                    <param id="0" name="Size (pt)">40</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="426644825662564">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="277710773869301" type="System">
+                            <param id="0" name="Variable">ControleAtual</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="840312330142472" type="System">
+                            <param id="0" name="Variable">Check</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="871938122806838">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="526978276343071" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set font size" sid="724019033307395" type="Continue">
+                    <param id="0" name="Size (pt)">48</param>
+                </action>
+                <action id="3" name="Set font size" sid="689059697361339" type="Quit">
+                    <param id="0" name="Size (pt)">40</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="586115259879479">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="907576244947152" type="System">
+                    <param id="0" name="Variable">Check</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set font size" sid="466915321882352" type="Quit">
+                    <param id="0" name="Size (pt)">48</param>
+                </action>
+                <action id="3" name="Set font size" sid="476623811958175" type="Continue">
+                    <param id="0" name="Size (pt)">40</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="503246225976592">
+            <conditions>
+                <condition id="8" name="On any button pressed" sid="195761435444443" type="Gamepad">
+                    <param id="0" name="Gamepad">0</param>
+                </condition>
+                <condition id="1" name="On gamepad connected" sid="307365782670868" type="Gamepad" />
+                <condition id="1" name="On any key pressed" sid="519940792842734" type="Keyboard" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="310293425588551" type="System">
+                    <param id="0" name="Variable">ControleAtual</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="524616599688512">
+            <conditions>
+                <condition id="5" inverted="1" name="Is tag playing" sid="970849883538504" type="Audio">
+                    <param id="0" name="Tag">&quot;Menu&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="630401418745042" type="Audio">
+                    <param id="0" name="Audio file">menus</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Menu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="522133372985830">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="353049636188964" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="785576414704169" type="Audio" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
